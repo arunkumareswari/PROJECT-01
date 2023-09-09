@@ -78,6 +78,9 @@ a{
     border-radius: 12px;
     box-shadow: rgba(0, 0 ,0, 0.1);
 }
+.signup_form{
+    display: none;
+}
 .form_closer{
     position: absolute;
     top: 10px;
@@ -129,4 +132,45 @@ a{
 .input_box i.pw_hide{
     right: 0;
     font-size: 18px;
+}
+.option_field{
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form_container a{
+    color:purple;
+    font-size: 12px;
+}
+.form_container a:hover{
+    text-decoration: underline;
+}
+.checkbox{
+    display: flex; 
+    column-gap: 8px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.checkbox input{
+    accent-color: purple;
+}
+.checkbox label{
+    font-size: 12px;
+    cursor: pointer;
+    user-select: none;
+    color: #0b0217;
+}
+.form_container .button{
+    background-color: purple;
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px;0;
+    border-radius:10px
+}
+.login_signup{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+    
 }
